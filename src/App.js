@@ -3,7 +3,6 @@ import Task from './components/Task'
 import './App.css'
 
 function App() {
-
 const [tasks, setTasks] = useState([
     { text: 'Go to gym', checked: true },
     { text: 'Drink coffee', checked: false },
@@ -49,8 +48,7 @@ const [tasks, setTasks] = useState([
           />
         ))}
       </main>
-    </div>
-    
+    </div>   
   )
 }
     
